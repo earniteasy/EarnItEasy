@@ -21,13 +21,7 @@ export default function Hero() {
                         Bonus of Unlimited Scratches, Spins and 1000 Captcha Tasks on New Joining.
                     </p>
                     <div className="flex justify-center lg:justify-start gap-4">
-                        <a
-                            href="https://drive.google.com/uc?export=download&id=10l9Kbc8y74KzhbLwxtLhMJ13ijj6nLbS"
-                            download
-                            className="bg-black text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-700 transition duration-300"
-                        >
-                            Download App
-                        </a>
+                        <a href="https://github.com/earniteasy/EarnItEasy/raw/refs/heads/main/src/download/release.apk" download className="bg-black text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-700 transition duration-300">Download App</a>
                     </div>
                 </div>
 

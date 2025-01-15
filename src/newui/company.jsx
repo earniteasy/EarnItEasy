@@ -1,11 +1,9 @@
 import React from 'react';
-import SS1 from '../assets/group.png';
 
 export default function CompanyBiography() {
     return (
         <section id='hero' className="relative">
             <div className="container bg-gray-50 mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-6 lg:px-12 py-4 lg:py-16">
-                {/* Left Content */}
                 <div className="text-center lg:text-center">
                     <h1 className="text-4xl md:text-3xl font-bold leading-tight mb-3">
                         India's first ever
