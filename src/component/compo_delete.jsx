@@ -35,8 +35,8 @@ export default function AccountDeletionRequest() {
     };
 
     return (
-        <div id='ac' className="bg-gray-100 text-gray-800 py-10 px-6">
-            <div className="container mx-auto max-w-7xl bg-white shadow-md rounded-lg p-8 flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
+        <div id='ac' className="text-gray-800">
+            <div className="container mx-auto max-w-7xl bg-white p-8 flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
                 {/* Instructions Section */}
                 <div className="md:w-1/2">
                     <h1 className="text-2xl font-bold mb-4">Account Deletion Request</h1>

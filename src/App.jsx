@@ -1,18 +1,16 @@
-import Header from './component/header'
-import Hero from './component/hero'
-import Footer from './component/footer'
-import PrivacyPolicy from './component/compo_privacy'
-import TermsAndConditions from './component/compo_terms'
-import AccountDeletionForm from './component/compo_delete'
+import Hero from './newui/hero'
+import NewHeader from './newui/header'
+import CompanyBiography from './newui/company'
+import Waiting from './newui/still'
+import Footer from './newui/footer'
 
 function App() {
   return (
     <>
-      <Header />
+      <NewHeader />
       <Hero />
-      <PrivacyPolicy />
-      <TermsAndConditions />
-      <AccountDeletionForm />
+      <CompanyBiography />
+      <Waiting />
       <Footer />
     </>
   )
