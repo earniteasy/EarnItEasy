@@ -60,7 +60,7 @@ export default function NewHeader() {
           <Link download href="../download/release-v3.0.apk">Download App</Link>
         </NavbarItem>
         <NavbarItem className="hidden lg:flex bg-white border border-gray-300 rounded-md px-5 py-1.5 text-sm font-semibold">
-          <Link href={handleAccountOpen}>Contact</Link>
+          <Link href=""><a onClick={handleAccountOpen}>Contact</a></Link>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
