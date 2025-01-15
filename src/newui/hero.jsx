@@ -22,7 +22,7 @@ export default function Hero() {
                     </p>
                     <div className="flex justify-center lg:justify-start gap-4">
                         <a
-                            href="../download/release-v3.0.apk"
+                            href="https://drive.google.com/uc?export=download&id=10l9Kbc8y74KzhbLwxtLhMJ13ijj6nLbS"
                             download
                             className="bg-black text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-700 transition duration-300"
                         >
