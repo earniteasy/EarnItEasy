@@ -3,14 +3,14 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link} from "@nextui-org/
 
 export default function NewHeader() {
 
-  const [isAccountOpen, setIsAccountOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleAccountOpen = (event) => {
+  const handleOpen = (event) => {
     event.preventDefault();
-    setIsAccountOpen(true);
+    setIsOpen(true);
   };
 
-  const handleAccountClose = () => setIsAccountOpen(false);
+  const handleClose = () => setIsOpen(false);
 
   const [formData, setFormData] = useState({
         subject: '',
@@ -60,7 +60,7 @@ export default function NewHeader() {
           <Link download href="../download/release-v3.0.apk">Download App</Link>
         </NavbarItem>
         <NavbarItem className="hidden lg:flex bg-white border border-gray-300 rounded-md px-5 py-1.5 text-sm font-semibold">
-          <Link href=""><a onClick={handleAccountOpen}>Contact</a></Link>
+          <Link><a onClick={handleOpen}>Contact</a></Link>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
